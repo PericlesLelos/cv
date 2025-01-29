@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    margin: 0 0;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(255, 255, 255);
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 231, 12);
+    border-radius: 30px;
+}
+
+nav p, nav a {
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    font-size: 1.15em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(0, 231, 12);
+    padding: 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.25em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer a:hover {
+    background-color: black;
+    font-size: 1.15em;
+}
+
+/* Splash Section */
+.splash {
+
+}
+
+.splash h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: rgb(189, 189, 189);
+}
+
+.splash img {
+    border-radius: 30px;
+    border: 30px solid rgba(42, 230, 51, 0.298);
+    width: 200px;
+}
+
+.splash p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15em;
+}
+
+/* Horizontal Rules */
+hr {
+    border-radius: 30px;
+    border: 10px solid rgb(0, 0, 0);
+}
+
+/* Sections */
+
+/* Education Paragraph Styling */
+section.dropdown-list {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: rgb(189, 189, 189);
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: rgb(189, 189, 189);
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    padding: 5px;
+}
+section a:hover {
+    background-color: black;
+    font-size: 1.25em;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+dl dt{
+    display: grid;
+}
+dl dd{
+    display: grid;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    border-radius: 30px;
+    border: 15px solid rgb(0, 0, 0);
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover{
+    border: 15px solid rgb(147, 147, 147);
+}
+
+.card img {
+  position: absolute;
+  height: 90px;
+  width: 200px;
+  z-index: -1;
+}
+
+.card h3 {
+    
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form {}
+
+form input, form textarea {}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {}
